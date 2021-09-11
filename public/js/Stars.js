@@ -18,7 +18,8 @@ class Stars {
 			x: random(0, width),
 			y: random(0, height - 1),
 			speed: random(1, 10),
-			color: {r: random(128, 255), g: random(128, 255), b: random(128, 255)}
+			color: {r: random(128, 255), g: random(128, 255), b: random(128, 255)},
+			size: 1
 		}
 		s.size = s.speed / 4
 		if (reset !== undefined) { // on reset always place at the top
