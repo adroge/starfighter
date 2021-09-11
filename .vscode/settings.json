@@ -1,0 +1,10 @@
+{
+    "liveServer.settings.port": 8000,
+    "liveServer.settings.root": "/public",
+    "liveServer.settings.CustomBrowser" : "firefox",
+    "liveServer.settings.NoBrowser" : false,
+    "liveServer.settings.ignoreFiles" : [
+            ".vscode/**",
+			"node_modules/**"
+    ]
+}
